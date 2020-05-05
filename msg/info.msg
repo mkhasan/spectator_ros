@@ -1,0 +1,4 @@
+float64 panAngle
+float64 tiltAngle
+int32 snapperIsActive
+int32 snapperWaitingMode

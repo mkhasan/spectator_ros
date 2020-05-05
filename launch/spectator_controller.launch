@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find spectator)/config/configuration.yaml" command="load"/>
+    <node name="spectator_node" pkg="spectator" type="spectator_node" output="screen"/>
+</launch>
